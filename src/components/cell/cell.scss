@@ -1,0 +1,22 @@
+.Cell {
+  width: 52px;
+  height: 52px;
+  background-color: burlywood;
+}
+
+.Cell:hover {
+  cursor: pointer;
+  background-color: cadetblue;
+}
+
+.Cell-div-parent {
+  width:  50px;
+  height: 50px;
+  border: solid 1px black;
+}
+
+.Cell-div-child {
+  text-align: center;
+  position: relative;
+  height: inherit;
+}
