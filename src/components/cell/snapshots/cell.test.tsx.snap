@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`simple snapshot tests Default cell snapshot 1`] = `
+<div>
+  <div
+    class="Cell"
+  >
+    <div
+      class="Cell-div-parent"
+    >
+      <div
+        class="Cell-div-child"
+        id="0"
+      >
+        0
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`simple snapshot tests nonDefaultID cell snapshot 1`] = `
+<div>
+  <div
+    class="Cell"
+  >
+    <div
+      class="Cell-div-parent"
+    >
+      <div
+        class="Cell-div-child"
+        id="123"
+      >
+        123
+      </div>
+    </div>
+  </div>
+</div>
+`;
